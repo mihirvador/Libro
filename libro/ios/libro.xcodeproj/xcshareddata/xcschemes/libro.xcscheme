@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "libro.app"
-               BlueprintName = "libro"
-               ReferencedContainer = "container:libro.xcodeproj">
+               BuildableName = "Libro.app"
+               BlueprintName = "Libro"
+               ReferencedContainer = "container:Libro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "libroTests.xctest"
-               BlueprintName = "libroTests"
-               ReferencedContainer = "container:libro.xcodeproj">
+               BuildableName = "LibroTests.xctest"
+               BlueprintName = "LibroTests"
+               ReferencedContainer = "container:Libro.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "libro.app"
-            BlueprintName = "libro"
-            ReferencedContainer = "container:libro.xcodeproj">
+            BuildableName = "Libro.app"
+            BlueprintName = "Libro"
+            ReferencedContainer = "container:Libro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "libro.app"
-            BlueprintName = "libro"
-            ReferencedContainer = "container:libro.xcodeproj">
+            BuildableName = "Libro.app"
+            BlueprintName = "Libro"
+            ReferencedContainer = "container:Libro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
