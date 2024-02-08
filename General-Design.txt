@@ -1,0 +1,5 @@
+Front End: React Native
+Back End: Node JS
+Database: Supabase
+
+/opt/android-studio/bin/studio.sh
