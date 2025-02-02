@@ -1,3 +1,4 @@
+import 'react-native-url-polyfill/auto';
 import React, { useEffect, useState } from 'react';
 import { supabase } from './src/auth/supabaseClient';
 import SignInPage from './src/screens/SignInPage';
@@ -18,8 +19,9 @@ export default function App() {
     initStorage();
 
     // Get current session and subscribe to auth changes
-    const session = supabase.auth.getSession();
-    setUser(session?.data?.session?.user ?? null);
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+    });
 
     const { data: subscription } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
