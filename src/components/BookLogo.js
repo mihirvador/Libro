@@ -3,7 +3,7 @@ import Svg, { Path } from 'react-native-svg';
 import { palette } from '../theme/theme';
 
 const BookLogo = ({ size = 80, color = palette.lightGreen }) => {
-  // Scale the viewBox to maintain proportions
+  // Scale the viewBox to maintain proportions 
   const viewBoxSize = 24;
   
   return (
